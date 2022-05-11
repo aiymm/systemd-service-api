@@ -1,0 +1,8 @@
+[Unit]
+Description=API server
+
+[Service]
+ExecStart=/setup.sh
+
+[Install]
+Alias=api.service
